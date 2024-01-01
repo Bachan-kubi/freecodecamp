@@ -128,7 +128,7 @@ function uniteUnique(arr1, arr2, arr3) {
         const arg = arguments[i];
         for(let j=0; j<arg.length; j++){
             const indexValue = arg[j];
-            console.log(indexValue);
+            console.log(indexValue);   
             if(finalArr.indexOf(indexValue)<0){
                 console.log(indexValue);
                 finalArr.push(indexValue)
@@ -138,7 +138,6 @@ function uniteUnique(arr1, arr2, arr3) {
     finalArr.sort((a,b)=>a-b)
     console.log(finalArr);
     return finalArr;
-   
   }   
   
   uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
